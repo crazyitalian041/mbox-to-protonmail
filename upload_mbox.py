@@ -10,14 +10,14 @@ import datetime
 SERVER = "127.0.0.1"
 PORT = 1143  # Use 993 if using SSL
 USE_SSL = False
-USERNAME = "hi@therob.io"
-PASSWORD = "mmA_QXUhELQUkMMr5sWDMg"
+USERNAME = "proton mail email"
+PASSWORD = "your proton bride imap password"
 
 MBOX_FILE = "/Users/robertdejesus/Downloads/HEY-emails-rawb@hey.com.mbox"
 DESTINATION_FOLDER = "Folders/Hey Archive"
 
 BATCH_SIZE = 5  # Number of emails to process at a time
-ALREADY_UPLOADED = 98235  # Update this number after checking uploaded count
+ALREADY_UPLOADED = 0  # Update this number after checking uploaded count
 MAX_EMAIL_SIZE = 30 * 1024 * 1024  # 30MB limit
 RETRY_DELAY = 10  # Wait 10 seconds on 502 errors
 
